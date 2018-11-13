@@ -1,19 +1,3 @@
-// Pliku Main.cpp, nie wolno modyfikowac.
- 
-// Ostateczny program powinien byc przyjazny dla programisty (miec
-// czytelny i dobrze napisany kod).
- 
-// Makefile (lub CMakeLists.txt) dolaczony do rozwiazania powinien tworzyc plik wykonywalny
-// o nazwie Mapa. Program nalezy kompilowac z flagami -Wall -g.
- 
-// Przy wykonaniu zadania nie wolno korzystac z internetu, notatek,
-// ani zadnych innych materialow (w tym wÅ‚asnych wczesniej
-// przygotowanych plikow oprÃ³cz Makefile lub CMakeLists.txt)
- 
-// Kody zrodlowe musza znajdowac sie w katalogu do ktorego nikt oprocz
-// wlasciciela nie ma praw dostepu.
- 
- 
 #include <iostream>
 #include "MapPoint.h"
  
