@@ -10,7 +10,7 @@ class Student{
         Student();
         Student(const char* name, const char* surname);
         void Print();
-        void setParentList(StudentsLis* studentsList);
+        void setParentList(StudentsList* studentsList);
         char* getName(); 
         char* getSurname();
         int getId();
