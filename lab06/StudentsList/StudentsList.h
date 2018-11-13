@@ -15,8 +15,8 @@ class StudentsList{
         void PrintAll();
         ~StudentsList();
     private:
-	void AddStudentToList(Student* AddedStudent); //!< Funkcja dodajaca studenta do listy
-	char* listName_; //!< Nazwa listy
-	Student** studentsList_; //!< Lista studentow
-	int counter_ = 0; //!< Licznik numerujacy studentow w liscie
+	 void AddStudentToList(Student* AddedStudent); //!< Funkcja dodajaca studenta do listy
+	 char* listName_; //!< Nazwa listy
+	 Student** studentsList_; //!< Lista studentow
+	 int counter_ = 0; //!< Licznik numerujacy studentow w liscie
 };
