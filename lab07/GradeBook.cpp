@@ -14,7 +14,7 @@ void GradeBook::insert(const Grade* grade){
     const Grade** tmp = gradeList_;
     gradeList_ = new const Grade*[grade->getId()];
     
-    for (int i = 0; i <= size_; i++)
+    for (int i = 0; i < size_; i++)
       gradeList_[i] = tmp[i];
     
     gradeList_[size_] = grade;
