@@ -4,7 +4,7 @@ int Student::studentId = 0;
 
 Student::Student(){}
 
-Student::Student(const char *name, const char *surname){
+Student::Student(const char* name, const char* surname){
     //name
     int count = 0;
     while (name[count] != '\0'){
@@ -34,7 +34,7 @@ void Student::Print(){
     cout << "Student " << id_ << " " << name_ << ", " << surname_ << endl;
 }
 
-void Student::setParentList(StudentsList *studentsList){
+void Student::setParentList(StudentsList* studentsList){
     parentList_ = studentsList;
 }
 

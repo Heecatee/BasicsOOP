@@ -8,9 +8,9 @@ class Student{
     public:
         static int studentId;
         Student();
-        Student(const char *name, const char *surname);
+        Student(const char* name, const char* surname);
         void Print();
-        void setParentList(StudentsList *studentsList);
+        void setParentList(StudentsList* studentsList);
         char* getName(); 
         char* getSurname();
         int getId();

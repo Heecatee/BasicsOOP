@@ -1,5 +1,4 @@
 #pragma once
-
 #include <iostream>
 #include "Student.h"
 
@@ -15,8 +14,7 @@ class StudentsList{
         void PrintAll();
         ~StudentsList();
     private:
-	    void AddStudentToList(Student* AddedStudent); //!< Funkcja dodajaca studenta do listy
-	    char* listName_; //!< Nazwa listy
-	    Student** studentsList_; //!< Lista studentow
-	    int counter_ = 0; //!< Licznik numerujacy studentow w liscie
+	 char* listName_; 
+	 Student** studentsList_; 
+	 int counter_ = 0;
 };
