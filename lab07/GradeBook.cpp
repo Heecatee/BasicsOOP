@@ -2,7 +2,7 @@
 using namespace std;
 
 GradeBook::GradeBook(){
-		size_ = 0;
+    size_ = 0;
 }
 
 void GradeBook::insert(const Grade* grade){
