@@ -9,6 +9,6 @@ class GradeBook{
         void print() const;
         void addGrade(float grade);
     private:
-        static int size_;
+        int size_;
         const Grade** gradeList_;
 };
