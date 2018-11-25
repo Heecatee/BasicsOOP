@@ -30,3 +30,9 @@ void GradeBook::print() const{
   for (int i = 0; i < size_; i++) 
     gradeList_[i]->print();
 }
+
+GradeBook::~GradeBook(){
+  for (int i = 0; i < size_; i++) 
+    delete[] gradeList_[i];
+  delete[] gradeList;
+}
