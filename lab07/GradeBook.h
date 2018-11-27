@@ -8,7 +8,8 @@ class GradeBook{
         void insert(const Grade* grade);
         void print() const;
         void addGrade(float grade);
+        ~GradeBook():
     private:
-        static int size_;
+        int size_;
         const Grade** gradeList_;
 };
