@@ -1,2 +1,2 @@
 # BasicsOOP
-Tasks for subject (basics of object oriented programming)
+Basics of Object Oriented Programming exercises
